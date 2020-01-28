@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html>
+   <html>
 
 <head id="First Header" class="Header">
     <meta charset="utf-8">
-    <meta name = "author" content="Dongha">
-    <meta name = "discription" comtent="Welcome to kakao coding"
+    <meta name = "viewport" content="width=divice-width, initail scale = 1.0">
+    <meta http-equiv="X-UA-compatible" contents="ie-edge">
 
-    <title>"This is Title"</title>
-    <style> 
-  
-        .box 
-        {background-color:red;
-          width: 200px;
-          height: 200px;
-          border: 5px solid black ;
-          display:inline;
-         } 
-         
-         
-         </style>
-    
+    <title>Position</title>
+
+    <style>
+
+  body,html{
+
+    height:100%; 
+    margin:0%;
+    padding:0%;
+   }
+
+   body{
+        height:400%;
+        background-color:green;
+
+         }
+    #boxOne{     height:500px;   
+              width:500px;
+              background-color:red;
+              position:static;
+         }
+
+    #boxTwo{     height:300px;   
+              width:300px;
+              background-color:yellow;
+              position:fixed;
+              top: 50px;    
+              bottom: 300px;
+              left: 500px;
+         }     
+    </style>
 </head>
 
 <body>
-    <a href = "contact_ma.html">fake link</a>
-    div <span class="box">1</span>
-        <span class="box">1</span>
-        <span class="box">1</span>
-  
+    
+    
 
+    <div id="boxOne">
+        <div class="box-child"></div>
+
+
+    
+    <div id="boxTwo">
+        <div class="box-child"></div>
+    
 </body>
-        
-</html>
+
+    </html>
